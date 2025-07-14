@@ -1,0 +1,6 @@
+lst=list(map(int, input("enter numbers: ").split(" ")))
+n= int(input("enter a number: "))
+lst1=set(lst)
+lst2=sorted(lst1,reverse=True)
+print(lst2)
+print(lst2[:n])
